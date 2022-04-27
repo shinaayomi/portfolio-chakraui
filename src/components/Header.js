@@ -42,7 +42,7 @@ export const Header = () => {
           >
             Adebisi Abdullateef
           </Text>
-          <Text color={isDark ? 'gray.500' : 'gray.100'}>
+          <Text color={isDark ? 'gray.500' : 'gray.700'}>
             Frontend Engineer
           </Text>
           <Button mt={5} colorScheme="blue">
