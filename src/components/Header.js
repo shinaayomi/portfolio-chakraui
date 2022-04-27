@@ -35,7 +35,7 @@ export const Header = () => {
             Hi, I am
           </Text>
           <Text
-            fontSize="7xl"
+            fontSize={isSmallScreen ? '7xl' : '6xl'}
             fontWeight="bold"
             bgGradient="linear(to-r,purple.300,green.200,cyan.400)"
             bgClip="text"
