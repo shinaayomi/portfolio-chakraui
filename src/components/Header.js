@@ -27,10 +27,11 @@ export const Header = () => {
       <Flex
         direction={isSmallScreen ? 'row' : 'column'}
         spacing="200px"
-        p={isSmallScreen ? '24' : '6'}
+        p={isSmallScreen ? '24' : '1'}
+        mb={isSmallScreen ? '0' : '10'}
         alignSelf="flex-start"
       >
-        <Box mt={isSmallScreen ? '0' : '16'} alignSelf="flex-start">
+        <Box mt={isSmallScreen ? '0' : '14'} alignSelf="flex-start">
           <Text fontSize="5xl" fontWeight="semibold">
             Hi, I am
           </Text>
